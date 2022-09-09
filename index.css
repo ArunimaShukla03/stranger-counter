@@ -1,0 +1,25 @@
+body {
+  background-image: url(imageedit_1_6186539774.png);
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 3em;
+  background-size: cover;
+}
+
+button {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: gray;
+  color: white;
+  font-weight: bold;
+  background-color: darkgray;
+  font-size: 1.1em;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
