@@ -15,3 +15,39 @@ function counter() {
 function save(){
   console.log(count)
 }
+
+//strings
+
+/* 
+
+let name = "Arunima"
+let greeting = "Hi, my name is "
+
+let myGreeting = greeting + name
+
+console.log(myGreeting)
+
+*/
+
+//numbers are considered strings if they are concatenated with strings
+
+/*
+
+let name1 = 42
+let bonusPoints = "1"
+
+let totalPoints = name1 + bonusPoints
+
+console.log(totalPoints)
+
+*/
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let yourName = "Arunima Shukla"
+
+let greeting = "Welcome Back"
+
+welcomeEl.innerText = greeting + ", " + yourName
+
+welcomeEl.innerText += "👋"
