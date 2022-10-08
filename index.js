@@ -1,4 +1,4 @@
-// Document.getElementById("counter-el").innerText=5 [here we are setting the innertext of the element that has the id "counter-el" to 5]
+// Document.getElementById("counter-el").innerText=5 [here we are setting the innertext of the element that has the id "counter-el" to count]
 
 let countEl = document.getElementById("counter-el")
 
@@ -9,5 +9,9 @@ let count=0
 function counter() {
   count=count+1
   countEl.innerText = count
+  console.log(count)
+}
+
+function save(){
   console.log(count)
 }
